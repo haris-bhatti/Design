@@ -1,0 +1,367 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sheikhspc.design.dashboard1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:background="@color/background"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCOUNT"
+            android:textSize="25dp"
+            android:id="@+id/tv1"
+            android:textStyle="bold"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="0dp"
+            android:textColor="@color/white"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:background="@color/white"
+            android:id="@+id/accountrl"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tv1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textSize="25dp"
+                android:id="@+id/statustv"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="60dp"
+                android:layout_below="@+id/arntv1"
+android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tick_icon"
+                android:layout_toRightOf="@+id/statustv"
+                android:layout_marginLeft="50dp"
+                android:layout_below="@+id/arntv1"
+                android:layout_marginTop="15dp"
+/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DRIVING LICENSE NUMBER"
+                android:textSize="12dp"
+                android:textColor="@color/Black"
+                android:layout_marginTop="10dp"
+                android:id="@+id/dlntv"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPLICATION REFERENCE NUMBER"
+                android:textSize="12dp"
+                android:textColor="@color/Black"
+                android:layout_marginTop="16dp"
+                android:id="@+id/arntv"
+
+                android:layout_below="@+id/dlntv1"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:textAlignment="gravity"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DRIVING LICENSE NUMBER"
+                android:textSize="14dp"
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/dlntv1"
+
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/dlntv"
+                android:layout_centerVertical="true"
+
+/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPLICATION REERENCE NUMBER"
+                android:textSize="14dp"
+
+
+                android:layout_marginTop="16dp"
+                android:id="@+id/arntv1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+
+                android:layout_below="@+id/arntv"
+/>
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOKED PRACTICLE TEST"
+            android:textSize="25dp"
+            android:id="@+id/bpttv"
+            android:textStyle="bold"
+            android:layout_below="@id/accountrl"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="0dp"
+            android:textColor="@color/white"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:background="@color/white"
+        android:id="@+id/bptrl"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@id/bpttv">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATE AND TIME"
+            android:textSize="12dp"
+            android:textColor="@color/Black"
+
+            android:id="@+id/dateandtimetv"
+
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="September 9, 2016 12:00 A.M"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+
+            android:id="@+id/dateandtimetv1"
+
+            android:gravity="right"
+            android:textAlignment="gravity"
+
+            android:layout_below="@+id/dateandtimetv"
+
+
+            android:layout_marginTop="6dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LAST DATE TO CHANGE OR CANCEL"
+            android:textSize="12dp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="10dp"
+            android:id="@+id/lastdatetv"
+
+            android:layout_below="@id/dateandtimetv1"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="September 6, 2016"
+            android:textSize="14dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+
+            android:id="@+id/lastdatetv1"
+
+            android:gravity="right"
+            android:textAlignment="gravity"
+
+            android:layout_below="@+id/lastdatetv"
+
+            android:layout_marginLeft="82dp"
+
+            android:layout_marginTop="6dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="12dp"
+            android:id="@+id/line1"
+
+            android:layout_below="@+id/lastdatetv1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEST CENTRE"
+            android:textSize="12dp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="16dp"
+            android:id="@+id/tcentretv"
+
+            android:layout_below="@id/line1"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lahore"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+
+            android:id="@+id/tcentretv1"
+
+            android:layout_below="@+id/line1"
+
+            android:layout_marginTop="16dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="12dp"
+            android:id="@+id/line2"
+            android:layout_below="@+id/tcentretv1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYPE OF TEST"
+            android:textSize="12dp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="16dp"
+            android:id="@+id/tottv"
+
+            android:layout_below="@id/line2"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+
+            android:id="@+id/tottv1"
+
+            android:layout_below="@+id/line2"
+
+            android:layout_marginTop="16dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="12dp"
+            android:id="@+id/line3"
+            android:layout_below="@+id/tottv1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FEE"
+            android:textSize="12dp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="16dp"
+            android:id="@+id/feetv"
+
+            android:layout_below="@id/line3"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$30"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+
+
+            android:id="@+id/feetv1"
+
+            android:layout_below="@+id/line3"
+
+            android:layout_marginTop="16dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="12dp"
+            android:id="@+id/line4"
+            android:layout_below="@+id/feetv1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEST STATUS"
+            android:textSize="12dp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="16dp"
+            android:id="@+id/tstatustv"
+
+            android:layout_below="@id/line4"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booked"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+
+
+            android:id="@+id/tstatustv1"
+
+            android:layout_below="@+id/line4"
+
+            android:layout_marginTop="16dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

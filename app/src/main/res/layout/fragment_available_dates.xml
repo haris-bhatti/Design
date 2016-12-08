@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sheikhspc.design.AvailableDates">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:id="@+id/one"
+        android:paddingTop="16dp"
+        android:background="@color/background"
+        android:paddingBottom="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT YOUR TEST CENTRE"
+        android:textSize="20dp"
+        android:id="@+id/selecttcentretv"
+        android:textStyle="bold"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="@color/white"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/white"
+        android:id="@+id/testcentrenamerl"
+
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp"
+        android:layout_below="@id/selecttcentretv">
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/testcentrenamespinner"
+            android:layout_alignTop="@+id/textView7"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+
+            android:background="@drawable/dropdown_arrow"
+            android:entries="@array/Cities"
+
+            android:layout_alignBottom="@+id/textView7" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:background="@color/white"
+        android:id="@+id/two"
+
+        android:paddingBottom="10dp"
+        android:paddingTop="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/testcentrenamerl"
+
+        tools:ignore="NotSibling">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="September 16,2016 9:00A.M"
+            android:textColor="@color/Black"
+            android:textSize="20dp"
+
+            android:id="@+id/showdatetimetv"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lahore"
+            android:textSize="19dp"
+            android:id="@+id/city"
+            android:layout_below="@id/showdatetimetv"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="12dp"
+            android:id="@+id/line1"
+            android:layout_below="@+id/city"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="September 16,2016 9:00P.M"
+            android:textColor="@color/Black"
+            android:textSize="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/line1"
+            android:id="@+id/showdatetimetv1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lahore"
+            android:textSize="19dp"
+            android:id="@+id/city1"
+            android:layout_below="@id/showdatetimetv1"
+            />
+
+</RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,161 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sheikhspc.design.Settings">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:id="@+id/one"
+        android:paddingTop="16dp"
+        android:background="@color/background"
+        android:paddingBottom="16dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/deleteaccountbtn"
+            android:text="Delete Account"
+            android:textSize="20dp"
+            android:background="@drawable/btn_full"
+            android:textColor="@color/white"
+
+            android:layout_marginTop="27dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/bugreportbtn"
+            android:text="Bug report &amp; Feedback"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_full"
+            android:textColor="@color/white"
+            android:layout_below="@+id/deleteaccountbtn"
+            android:layout_marginTop="27dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/rateusbtn1"
+            android:text="Rate Us on google play"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_full"
+            android:textColor="@color/white"
+            android:layout_below="@+id/bugreportbtn"
+            android:layout_marginTop="27dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions"
+
+            android:textSize="20dp"
+            android:id="@+id/tandmtv"
+            android:textStyle="bold"
+            android:layout_below="@id/rateusbtn1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="0dp"
+            android:textColor="@color/white"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:background="@color/white"
+        android:id="@+id/tandmrl"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tandmtv">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By using this application, you are agreeing to the"
+            android:textColor="@color/Black"
+            android:id="@+id/sd"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions."
+            android:textStyle="bold"
+
+            android:textColor="@color/Black"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/sd"
+            android:id="@+id/textView9" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Version"
+
+        android:textSize="20dp"
+        android:id="@+id/versiontv"
+        android:textStyle="bold"
+        android:layout_below="@id/tandmrl"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="@color/white"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/white"
+        android:id="@+id/versionrl"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/versiontv">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V 1.0.1"
+            android:textColor="@color/Black"
+            android:id="@+id/sdd"
+            />
+</RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,179 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sheikhspc.design.Notification">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:background="@color/background"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOTIFICATION SETTING"
+            android:textSize="22dp"
+            android:id="@+id/tv1"
+            android:textStyle="bold"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="0dp"
+            android:textColor="@color/white"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/white"
+            android:id="@+id/accountrl"
+            android:paddingTop="18dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tv1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FIND TEST BEFORE"
+                android:textSize="12dp"
+                android:textColor="@color/Black"
+
+                android:id="@+id/dlntv"
+
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15/09/2016"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:textColor="@color/background"
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/findtestbeforetv"
+
+
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="15dp"
+                android:id="@+id/line1"
+                android:layout_below="@+id/dlntv"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PUSH NOTIFICATIONS"
+                android:textSize="12dp"
+                android:textColor="@color/Black"
+                android:layout_marginTop="15dp"
+                android:id="@+id/arntv"
+
+
+                android:layout_below="@+id/line2"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:textAlignment="gravity"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/arntv"
+                android:text="off"
+android:layout_marginTop="5dp"
+                android:id="@+id/pushnotificationbtn"
+                android:textColor="@color/white"
+android:layout_centerHorizontal="true"
+                android:background="@drawable/off_btn"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL NOTIFICATIONS"
+                android:textSize="12dp"
+                android:textColor="@color/Black"
+                android:layout_marginTop="10dp"
+                android:id="@+id/arnntv"
+
+
+                android:layout_below="@+id/pushnotificationbtn"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:textAlignment="gravity"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/arnntv"
+                android:text="on"
+                android:layout_marginTop="5dp"
+                android:id="@+id/emailnotificationbtn"
+                android:textColor="@color/white"
+                android:background="@drawable/on_btn"
+ android:layout_centerHorizontal="true"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL ADDRESS"
+                android:textSize="12dp"
+                android:textColor="@color/Black"
+                android:layout_marginTop="15dp"
+                android:id="@+id/arnnntv"
+
+android:layout_below="@+id/line1"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:textAlignment="gravity"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abc@gmail.com"
+                android:paddingTop="15dp"
+                android:id="@+id/email"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/line1"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="15dp"
+                android:id="@+id/line2"
+                android:layout_below="@+id/email"/>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+        </RelativeLayout>
+
+</FrameLayout>

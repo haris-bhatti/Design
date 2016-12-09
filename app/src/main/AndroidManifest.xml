@@ -25,7 +25,6 @@
             android:name=".Login"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".abc"></activity>
     </application>
 
 </manifest>

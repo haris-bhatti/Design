@@ -55,65 +55,67 @@
 
 
     </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="0dp"
-        android:background="@color/white"
-        android:id="@+id/two"
 
-        android:paddingBottom="10dp"
-        android:paddingTop="12dp"
-        android:paddingLeft="12dp"
-        android:paddingRight="12dp"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/testcentrenamerl"
-
-        tools:ignore="NotSibling">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="September 16,2016 9:00A.M"
-            android:textColor="@color/Black"
-            android:textSize="20dp"
-
-            android:id="@+id/showdatetimetv"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Lahore"
-            android:textSize="19dp"
-            android:id="@+id/city"
-            android:layout_below="@id/showdatetimetv"
-            />
-        <View
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"
-            android:layout_marginTop="12dp"
-            android:id="@+id/line1"
-            android:layout_below="@+id/city"/>
-        <TextView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="September 16,2016 9:00P.M"
-            android:textColor="@color/Black"
-            android:textSize="20dp"
-            android:layout_marginTop="12dp"
-            android:layout_below="@+id/line1"
-            android:id="@+id/showdatetimetv1"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Lahore"
-            android:textSize="19dp"
-            android:id="@+id/city1"
-            android:layout_below="@id/showdatetimetv1"
-            />
+            android:background="@color/white"
+            android:id="@+id/two"
 
-</RelativeLayout>
+            android:paddingBottom="10dp"
+            android:paddingTop="12dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_marginTop="22dp"
+
+            tools:ignore="NotSibling"
+            android:layout_below="@+id/testcentrenamerl"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="September 16,2016 9:00A.M"
+                android:textColor="@color/Black"
+                android:textSize="20dp"
+
+                android:id="@+id/showdatetimetv"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lahore"
+                android:textSize="19dp"
+                android:id="@+id/city"
+                android:layout_below="@id/showdatetimetv"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="12dp"
+                android:id="@+id/line1"
+                android:layout_below="@+id/city"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="September 16,2016 9:00P.M"
+                android:textColor="@color/Black"
+                android:textSize="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_below="@+id/line1"
+                android:id="@+id/showdatetimetv1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lahore"
+                android:textSize="19dp"
+                android:id="@+id/city1"
+                android:layout_below="@id/showdatetimetv1"
+                />
+
+    </RelativeLayout>
     </RelativeLayout>
 </FrameLayout>
